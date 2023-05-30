@@ -1,0 +1,146 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Kdam Thmor Pro', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Rubik Pixels', cursive; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+body{
+    display: flex;
+    background-color: aliceblue;
+    /* height: 200vh; */
+    margin: 0;
+}
+header{
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25vw;
+    height: 100vh;
+    background-color: #AA7777;
+}
+.elemnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 25vh;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.elemnav:hover{
+    border-style: solid;
+    border-color: #FFD952;
+    border-radius: 5%;
+    border-width: 0.3em;
+}
+.elemnav:visited{
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+#oui{
+    background-color: #FFD952;
+    color: black;
+}
+#oui:hover{
+    border-radius: 0%;
+    border: 0cm;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 65vw;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid;
+    margin-top: 8vh;
+    width: 65vw;
+    height: 6vh;
+    border-radius: 15px;
+    /* position: sticky;
+    top: 15px; */
+}
+input{
+    border-radius: 15px;
+    width: 35vw;
+    height: 4vh;
+}
+select{
+    border-radius: 15px;
+    height: 4.5vh;
+    width: 15vw;
+    text-align: center;
+}
+.elem{
+    width: 65vw;
+    height: 80vh;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.amis{
+    height: 65vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.info{
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    justify-content: space-evenly;
+    height: 65vh;
+    align-items: center;
+}
+.ami{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-left: solid #000000;
+    border-bottom: solid #000000;
+    border-radius: 50px;
+    border-width: 6px;
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    transition: all 1s ease-in-out;
+}
+.ami:hover{
+    border-left: solid #FFD952;
+    border-bottom: solid #FFD952;
+    border-width: 8px;
+    position: relative;
+    bottom: 20px;
+}
+h3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+    background-color: #FFD952;
+    position: relative;
+    z-index: 3;
+}
+/* .amiphoto{
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+} */
+p{
+    background-color: rgba(255, 255, 255, 0.571);
+}
